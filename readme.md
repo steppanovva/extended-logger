@@ -1,6 +1,6 @@
 Logger extended with a log-level (info, warning, error) parameter.
 
-
+```
 Example:
 
 func main() {
@@ -18,3 +18,4 @@ Result:
 2022/07/13 20:24:02 WARNING: Warning
 2022/07/13 20:24:02 ERROR: Error
 2022/07/13 20:24:02 DEBUG
+```
