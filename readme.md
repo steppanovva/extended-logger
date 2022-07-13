@@ -6,7 +6,8 @@ Example:
 func main() {
 	logger := NewLogExtended()
 	logger.SetLogLevel(Warning)
-	logger.PrintInfo("Should not be printed") // because the "info" level lower in priority than "warning" level of this logger
+	logger.PrintInfo("Should not be printed") // because "info" level is
+	// lower in priority than "warning" level of this logger
 	logger.PrintWarning("Warning")
 	logger.PrintError("Error")
 	logger.Println("DEBUG")
